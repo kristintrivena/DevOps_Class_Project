@@ -1,3 +1,1 @@
 # Start DevOps journey now
-
-
