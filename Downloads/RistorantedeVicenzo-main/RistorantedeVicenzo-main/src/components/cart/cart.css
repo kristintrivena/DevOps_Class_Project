@@ -1,0 +1,144 @@
+.section-cart-item {
+  text-align: center;
+  font-family: "Poppins";
+  padding-top: 50px;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 35px;
+  padding-bottom: 15px;
+}
+
+.menu-cart-section {
+  padding: 35px 0 0 60px;
+  text-align: left;
+  background-color: rgb(74, 119, 102);
+  height: 102px;
+  font-size: 20px;
+  color: white;
+  font-weight: 800;
+  word-spacing: 5px;
+  margin: 60px 0 60px 0;
+}
+
+.cart-item {
+  display: flex;
+  align-items: stretch;
+  padding: 10px;
+  background-color: white;
+  border-radius: 20px;
+  border: 2px solid rgba(147, 144, 140, 0.7);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin: 0 60px 30px 60px;
+}
+
+.cart-item img {
+  width: 224px;
+  height: 218px;
+  object-fit: cover;
+  border-radius: 20px 0 0 20px;
+  margin-right: 26px;
+  margin-top: 15px;
+}
+
+.item-details {
+  font-family: "Inter";
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+h3 {
+  font-weight: bolder;
+}
+
+.prices {
+  font-weight: bold;
+  color: #4a6e33;
+  font-size: 18px;
+  margin-top: 90px;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.desc-item {
+  text-align: justify;
+  margin-right: 40px;
+}
+
+.quantity-controls button {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  color: #4a6e33;
+  font-size: 32px;
+}
+
+.minus {
+  margin-right: 10px;
+}
+
+.plus {
+  margin-left: 10px;
+}
+
+.remove-button {
+  margin-right: 50px;
+  background-color: transparent;
+  color: #4a6e33;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 8px;
+  cursor: pointer;
+  display: flex;
+  font-size: 30px;
+}
+
+.shopping-cart {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-button {
+  margin-top: 50px;
+  margin-left: 1334px;
+  width: 165px;
+  height: 65px;
+  display: inline-block; 
+  background-color: #4a6e33; 
+  color: white; 
+  border: none; 
+  border-radius: 20px; 
+  padding: 15px 15px; 
+  text-decoration: none; 
+  cursor: pointer;
+  font-size: 20px; 
+  font-weight: 500;
+}
+
+.menu-button:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #4a6e33;
+}
+
+.remove-button:hover {
+  color: #d32f2f;
+}
+
+.quantity-controls button:hover {
+  background-color: beige;
+}

@@ -1,0 +1,9 @@
+.contain {
+    background-color: rgb(74, 119, 102) !important;
+    height: 417px;
+    margin-top: 30px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,87 @@
+/* Styling untuk keseluruhan page */
+.kategori-page {
+  font-family: Arial, sans-serif;
+  padding: 40px;
+  text-align: center;
+}
+
+/* Header section styling */
+.header h1 {
+  color: #000;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+/* Menu section styling */
+.menu-section {
+  padding: 40px;
+  background-color: #4A7766; /* Warna latar belakang sama untuk makanan dan minuman */
+  border-radius: 8px;
+}
+
+/* Styling untuk kategori makanan dan minuman */
+.menu-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* Jarak antar item */
+  margin-bottom: 40px; /* Jarak antara makanan dan minuman */
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Bayangan */
+  width: 300px; /* Ukuran lebih besar */
+  transition: transform 0.3s ease; /* Animasi hover */
+}
+
+.menu-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.menu-item img:hover {
+  opacity: 0.7; /* Efek hover */
+}
+
+.menu-item button {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #304B48;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.menu-item button:hover {
+  background-color: #567d6a; /* Warna lebih terang saat hover */
+}
+
+.menu-item:hover {
+  transform: translateY(-10px); /* Efek hover: mengangkat */
+}
+
+.menu-section h2 {
+  font-size: 32px;
+  color: #fff;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-left: 10px; /* Posisi h2 */
+}

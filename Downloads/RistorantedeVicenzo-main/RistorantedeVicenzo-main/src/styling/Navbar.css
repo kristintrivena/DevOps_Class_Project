@@ -1,0 +1,51 @@
+input::placeholder {
+    color: black;
+    opacity: 1;
+    font-family: "Poppins";
+}
+
+.navbar-custom {
+    transition: background-color 0.3s ease !important;
+    background-color: rgb(48, 75, 72) !important;
+    padding-left: 50px !important;
+    height: 104px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 42px !important;
+    color: rgb(236, 231, 226)!important;
+}
+
+.navbar-custom:hover {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+}
+
+.nav-link {
+    transition: color 0.3s ease  !important;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 20px !important;
+    color: rgb(236, 231, 226) !important;
+    margin-right: 20px;
+}
+
+.nav-link:hover {
+    transform: scale(1.2) !important;
+    color: #ffcc00 !important;
+}
+
+.rounded-input{
+    border-radius: 50px !important;
+    height: 25px;
+    width: 249px !important;
+    font-size: 15px !important;
+    font-family: 'Poppins';
+}
+
+.cart-icon, .user-icon {
+    transition: transform 0.3s ease;
+    font-size: 24px;
+}
+
+.cart-icon:hover, .user-icon:hover {
+    transform: scale(1.2);
+}

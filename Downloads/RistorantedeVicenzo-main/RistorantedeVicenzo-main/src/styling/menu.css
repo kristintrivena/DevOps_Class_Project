@@ -1,0 +1,113 @@
+/* Styling untuk judul "Minuman Hangat" */
+.menu-header h2 {
+  font-size: 32px;
+  color: #2e8b57;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #4A7766;
+  display: block; /* Memastikan elemen memenuhi lebar */
+  width: 100%;
+  box-sizing: border-box; /* Agar padding tidak menambah lebar elemen */
+}
+
+/* Styling untuk halaman Menu */
+.menu-page {
+  padding: 20px;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+.menu-header {
+  margin-bottom: 40px; /* Tambahkan jarak antara header dan grid */
+}
+
+.menu-header h2 {
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 30px;
+  text-align: left;
+  padding-left: 8%;
+}
+
+.menu-header h1 {
+  color: #000;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.menu-header p {
+  color: #666;
+  margin-bottom: 30px; /* Hapus margin-bottom ganda */
+}
+
+/* Grid untuk menampilkan menu */
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Tiga kolom */
+  gap: 30px; /* Tambah jarak antar card */
+}
+
+.menu-card {
+  background-color: transparent;
+  border: 2px solid #948888;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.menu-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.menu-card p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.menu-card h3 {
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Atur tombol menjadi vertikal */
+.menu-buttons {
+  display: flex;
+  flex-direction: column; /* Atur tata letak tombol secara vertikal */
+  gap: 10px; /* Beri jarak antar tombol */
+}
+
+.menu-buttons button {
+  padding: 15px; /* Perbesar ukuran tombol */
+  width: 100%; /* Buat tombol sepanjang kartu */
+  border-radius: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border: 2px solid #000;
+  font-weight: bold; /* Tambahkan ini untuk menjadikan teks tebal */
+}
+
+/* Tombol Add to Cart */
+.add-to-cart {
+  background-color: #fff;
+  color: black; /* Ubah warna teks menjadi hitam */
+}
+
+.add-to-cart:hover {
+  background-color: #b5e6b5;
+}
+
+/* Tombol Order Now */
+.order-now {
+  background-color: #32CD32;
+  color: black; /* Ubah warna teks menjadi hitam */
+}
+
+.order-now:hover {
+  background-color: #28a828;
+}

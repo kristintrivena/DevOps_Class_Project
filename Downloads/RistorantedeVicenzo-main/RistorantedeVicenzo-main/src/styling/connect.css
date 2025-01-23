@@ -1,0 +1,68 @@
+/* Section untuk Connect Closer */
+.connect-closer-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  transition: transform 0.3s ease;
+}
+
+.connect {
+  width: 40%; /* Atur lebar container */
+  background-color: #4B0082;
+  color: #32CD32;
+  padding: 40px;
+  border: 2px solid #CE862F;
+  border-radius: 20px;
+  margin: 40px auto 20px auto; /* Gunakan auto untuk margin kiri dan kanan */
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  white-space: nowrap; /* Menjaga teks agar tetap di satu baris */
+}
+
+.connect:hover {
+  transform: translateY(-10px);
+}
+
+/* Styling untuk icon social media */
+.connect span {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.icon {
+  display: flex;
+  gap: 20px;
+  margin-left: 40px;
+  font-size: 30px;
+  color: white;
+}
+
+/* Section untuk Terima Kasih */
+.thank-you {
+  text-align: center; /* Pastikan teks berada di tengah */
+  margin-top: 15px;
+}
+
+.thank-you p {
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+}
+
+/* Section untuk Footer */
+.footer {
+  background-color: #304B48;
+  color: white;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 70%;
+}

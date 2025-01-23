@@ -1,0 +1,154 @@
+.cook-books {
+    text-align: center;
+    background-color: rgb(74, 119, 102);
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cook-books h1  {
+    color: white !important;
+}
+
+.subtitle {
+    color: white;
+    padding-bottom: 20px;
+}
+  
+.menu-items-full {
+    display: flex;
+    align-items: center !important;
+    flex-direction: column;
+    gap: 30px;
+}
+  
+.menu-item-first {
+    width: 1190px;
+    height: 305px;
+    display: flex;
+    background-color: #d9d9d9;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+  
+.menu-item-image {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+}
+  
+.menu-item-image img {
+    width: 565px !important;
+    height: 305px !important;
+    object-fit: cover;
+    border-radius: 8px 0 0 8px;
+}
+
+.menu-item-content {
+    font-family: "Inter";
+    position: relative;
+    flex: 0 0 50%;
+    text-align: left;
+    padding: 8px 0 0 15px;
+}
+
+.menu-item-content h2 {
+    font-weight: bold;
+}
+
+.tags {
+    position: absolute; 
+    top: 10px; 
+    right: 10px; 
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 8px;
+}
+
+.menu-items-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+}
+
+.menu-item-index {
+    width: 572px;
+    height: 516px;
+    display: flex;
+    flex-direction: column;
+    background-color: #d9d9d9;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item-image-1 {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.menu-item-image-1 img {
+    width: 572px;
+    height: 226px;
+    object-fit: cover; 
+    border-radius: 8px 8px 0 0; 
+}
+
+.tags-upper {
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 8px;
+}
+
+.tag {
+    background-color: rgb(49, 24, 101);
+    color: white;
+    font-weight: 600;
+    font-family: "Poppins";
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+  
+.read-more-container {
+    position: absolute;
+    bottom: 10px; 
+    right: 10px; 
+    display: flex; 
+    flex-wrap: wrap; 
+    display: flex; 
+    align-items: center; 
+}
+  
+.read-more-link {
+    text-decoration: none; 
+    color: black; 
+    font-family: "Poppins";
+    font-weight: 600; 
+    display: flex;
+    align-items: center; 
+}
+  
+@media (max-width: 768px) {
+    .cook-books {
+      padding: 20px;
+    }
+  
+    .menu-item-first {
+      flex-direction: column;
+    }
+    
+    .menu-items-container {
+        grid-template-columns: 1fr;
+    }
+    .menu-item-index {
+      flex-direction: column;
+    }
+  
+    .menu-item-image {
+      padding-right: 0;
+      margin-bottom: 20px;
+    }
+}
