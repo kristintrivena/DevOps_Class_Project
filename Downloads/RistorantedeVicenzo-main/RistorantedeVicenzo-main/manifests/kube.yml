@@ -1,10 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: ristorantedevicenzo
-  namespace: default
+  name: ristorantedevicenzo-development
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: ristorantedevicenzo
@@ -15,7 +14,7 @@ spec:
     spec:
       containers:
         - name: ristorantedevicenzo
-          image: itsjipa/ristorantedevicenzo:1.0.4
+          image: itsjipa/ristorantedevicenzo:main
           resources:
             requests:
               memory: "256Mi"
@@ -23,8 +22,7 @@ spec:
             limits:
               memory: "512Mi"
               cpu: "1"
-      imagePullSecrets:
-        - name: regcred
+              
 ---
 apiVersion: v1
 kind: Service
@@ -36,9 +34,10 @@ spec:
   selector:
     app: ristorantedevicenzo
   ports:
-    - port: 8080
-      targetPort: 8080
-      nodePort: 30080 # Tambahkan jika ingin NodePort spesifik
+    - port: 80
+      targetPort: 80
+  type: LoadBalancer
+
 ---
 apiVersion: autoscaling/v2
 kind: HorizontalPodAutoscaler
